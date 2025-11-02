@@ -1,0 +1,16 @@
+{
+  "source": "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/FetchInstallerPkgApp.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 23
+        }
+      }
+    ]
+  },
+  "version": 1
+}

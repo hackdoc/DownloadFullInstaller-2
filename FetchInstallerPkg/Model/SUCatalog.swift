@@ -85,8 +85,77 @@ class SUCatalog: ObservableObject {
 //            print("### \(self.thisComponent) : \(products.count) products found")
 //            print("### \(self.thisComponent) : \(self.installers.count) installer pkgs found")
 
-            installers.sort { $0.postDate > $1.postDate }
+            // Sort installers according to user preference
+            sortInstallers()
         }
 
+    }
+
+    /// Sort installers according to Prefs.sortOrder
+    func sortInstallers() {
+        switch Prefs.sortOrder {
+        case .postDate:
+            installers.sort { $0.postDate > $1.postDate }
+
+        case .productVersion:
+            installers.sort { a, b in
+                // compare semantic-style productVersion first, fallback to postDate
+                let va = versionComponents(from: a.productVersion)
+                let vb = versionComponents(from: b.productVersion)
+                if va.count == 0 && vb.count == 0 {
+                    return a.postDate > b.postDate
+                } else if va.count == 0 {
+                    return false
+                } else if vb.count == 0 {
+                    return true
+                } else {
+                    return compareVersionComponents(va, vb)
+                }
+            }
+
+        case .buildVersion:
+            installers.sort { a, b in
+                let av = a.buildVersion ?? ""
+                let bv = b.buildVersion ?? ""
+                if av.isEmpty && bv.isEmpty {
+                    return a.postDate > b.postDate
+                } else if av.isEmpty {
+                    return false
+                } else if bv.isEmpty {
+                    return true
+                } else {
+                    // use localizedStandardCompare to respect numeric parts
+                    let ord = (av as NSString).localizedStandardCompare(bv)
+                    if ord == .orderedSame {
+                        return a.postDate > b.postDate
+                    }
+                    return ord == .orderedDescending
+                }
+            }
+        }
+    }
+
+    private func versionComponents(from s: String?) -> [Int] {
+        guard let s = s else { return [] }
+        // split by dots and non-digit, keep numeric parts
+        let parts = s.split{ !$0.isNumber && $0 != "." }.map { String($0) }
+        var comps: [Int] = []
+        for part in parts {
+            let nums = part.split(separator: ".").map { String($0) }
+            for n in nums {
+                if let iv = Int(n) { comps.append(iv) }
+            }
+        }
+        return comps
+    }
+
+    private func compareVersionComponents(_ a: [Int], _ b: [Int]) -> Bool {
+        let n = max(a.count, b.count)
+        for i in 0..<n {
+            let ai = i < a.count ? a[i] : 0
+            let bi = i < b.count ? b[i] : 0
+            if ai != bi { return ai > bi }
+        }
+        return false
     }
 }

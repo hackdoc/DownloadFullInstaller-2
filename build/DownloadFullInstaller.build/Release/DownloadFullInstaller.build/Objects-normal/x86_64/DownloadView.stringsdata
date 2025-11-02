@@ -1,0 +1,40 @@
+{
+  "source": "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/View/DownloadView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": " ",
+        "location": {
+          "startingColumn": 11,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": " ",
+        "location": {
+          "startingColumn": 11,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": " ",
+        "location": {
+          "startingColumn": 11,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": " ",
+        "location": {
+          "startingColumn": 11,
+          "startingLine": 37
+        }
+      }
+    ]
+  },
+  "version": 1
+}

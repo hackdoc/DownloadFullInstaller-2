@@ -10,6 +10,7 @@ struct Prefs {
     enum Key: String {
         case seedProgram = "SeedProgram"
         case osNameID = "OsNameID"
+        case sortOrder = "SortOrder"
         case downloadPath = "DownloadPath"
         case languageSelectionShown = "LanguageSelectionShown"
     }
@@ -23,6 +24,8 @@ struct Prefs {
         var prefs = [String: Any]()
         prefs[Prefs.key(.seedProgram)] = SeedProgram.noSeed.rawValue
         prefs[Prefs.key(.osNameID)] = OsNameID.osAll.rawValue
+        // default sort order: post date (最新发布时间)
+        prefs[Prefs.key(.sortOrder)] = SortOrder.postDate.rawValue
         prefs[Prefs.key(.languageSelectionShown)] = false
 
         guard let downloadURL = FileManager.default.urls(for: .downloadsDirectory, in: .userDomainMask).first else { return }
@@ -63,6 +66,30 @@ struct Prefs {
     static var downloadURL: URL {
         let downloadURL = URL(fileURLWithPath: downloadPath)
         return downloadURL
+    }
+
+    enum SortOrder: String, CaseIterable, Identifiable {
+        case postDate = "PostDate"
+        case productVersion = "ProductVersion"
+        case buildVersion = "BuildVersion"
+
+        var id: String { rawValue }
+
+        var displayName: String {
+            switch self {
+            case .postDate:
+                return NSLocalizedString("按发布时间", comment: "sort by post date")
+            case .productVersion:
+                return NSLocalizedString("按产品版本", comment: "sort by product version")
+            case .buildVersion:
+                return NSLocalizedString("按构建版本", comment: "sort by build version")
+            }
+        }
+    }
+
+    static var sortOrder: SortOrder {
+        let value = UserDefaults.standard.string(forKey: Prefs.key(.sortOrder)) ?? SortOrder.postDate.rawValue
+        return SortOrder(rawValue: value) ?? .postDate
     }
     
     static var languageSelectionShown: Bool {

@@ -1,0 +1,24 @@
+{
+  "source": "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/View/PreferencesView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "osNameID",
+        "location": {
+          "startingColumn": 13,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "排序",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 43
+        }
+      }
+    ]
+  },
+  "version": 1
+}

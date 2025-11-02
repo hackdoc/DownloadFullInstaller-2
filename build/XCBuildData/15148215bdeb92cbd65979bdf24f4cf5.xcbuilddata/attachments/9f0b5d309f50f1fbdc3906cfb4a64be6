@@ -1,0 +1,136 @@
+{
+  "" : {
+    "const-values" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/DownloadFullInstaller-primary.swiftconstvalues",
+    "dependencies" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/DownloadFullInstaller-primary.d",
+    "diagnostics" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/DownloadFullInstaller-primary.dia",
+    "emit-module-dependencies" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/DownloadFullInstaller-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/DownloadFullInstaller-primary-emit-module.dia",
+    "pch" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/DownloadFullInstaller-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/DownloadFullInstaller-primary.swiftdeps"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/AppDelegate.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/AppDelegate.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/AppDelegate.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/AppDelegate.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/Caffeine.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/Caffeine.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/Caffeine.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/Caffeine.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/DownloadManager.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/DownloadManager.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/DownloadManager.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/DownloadManager.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/FetchInstallerPkgApp.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/FetchInstallerPkgApp.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/FetchInstallerPkgApp.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/FetchInstallerPkgApp.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/Languages/LanguageManager.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/LanguageManager.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/LanguageManager.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/LanguageManager.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/Languages/LocalizationHelper.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/LocalizationHelper.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/LocalizationHelper.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/LocalizationHelper.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/Model/BuildManifest.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/BuildManifest.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/BuildManifest.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/BuildManifest.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/Model/Catalog.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/Catalog.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/Catalog.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/Catalog.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/Model/DistParserDelegate.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/DistParserDelegate.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/DistParserDelegate.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/DistParserDelegate.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/Model/LiquidGlassStyle.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/LiquidGlassStyle.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/LiquidGlassStyle.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/LiquidGlassStyle.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/Model/MetaInfo.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/MetaInfo.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/MetaInfo.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/MetaInfo.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/Model/OSNames.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/OSNames.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/OSNames.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/OSNames.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/Model/Package.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/Package.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/Package.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/Package.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/Model/Product.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/Product.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/Product.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/Product.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/Model/SUCatalog.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/SUCatalog.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/SUCatalog.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/SUCatalog.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/Model/SeedProgram.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/SeedProgram.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/SeedProgram.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/SeedProgram.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/Prefs.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/Prefs.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/Prefs.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/Prefs.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/View/ContentView.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/ContentView.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/ContentView.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/ContentView.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/View/DownloadView.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/DownloadView.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/DownloadView.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/DownloadView.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/View/IconView.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/IconView.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/IconView.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/IconView.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/View/InstallerView.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/InstallerView.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/InstallerView.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/InstallerView.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/View/LanguageSelectionView.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/LanguageSelectionView.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/LanguageSelectionView.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/LanguageSelectionView.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/View/PreferencesView.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/PreferencesView.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/PreferencesView.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/PreferencesView.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/noSleep.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/noSleep.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/noSleep.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/noSleep.o"
+  },
+  "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/li/Documents/GitHub/DownloadFullInstaller-2/build/DownloadFullInstaller.build/Release/DownloadFullInstaller.build/Objects-normal/x86_64/GeneratedAssetSymbols.o"
+  }
+}

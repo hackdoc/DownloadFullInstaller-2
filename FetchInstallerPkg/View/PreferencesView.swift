@@ -10,6 +10,7 @@ struct PreferencesView: View {
 	@AppStorage(Prefs.key(.seedProgram)) var seedProgram: String = SeedProgram.noSeed.rawValue
 	@AppStorage(Prefs.key(.osNameID)) var osNameID: String = OsNameID.osAll.rawValue
 	@AppStorage(Prefs.key(.downloadPath)) var downloadPath: String = ""
+    @AppStorage(Prefs.key(.sortOrder)) var sortOrder: String = Prefs.SortOrder.postDate.rawValue
 	@EnvironmentObject var sucatalog: SUCatalog
 
 	let labelWidth = 100.0
@@ -36,6 +37,19 @@ struct PreferencesView: View {
 					}
 
 					if #available(macOS 14.0, *) {
+
+					// Sort order picker
+					HStack {
+						Picker(selection: $sortOrder, label: Text("排序")) {
+							ForEach(Prefs.SortOrder.allCases) { s in
+								Text(s.displayName).tag(s.rawValue)
+							}
+						}
+						.onChange(of: sortOrder) { _ in
+							sucatalog.sortInstallers()
+						}
+					}
+
 						Picker(selection: $seedProgram, label: EmptyView()) {
 							ForEach(SeedProgram.allCases) { program in
                                 HStack {

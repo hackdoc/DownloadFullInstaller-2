@@ -1,0 +1,24 @@
+{
+  "source": "/Users/li/Documents/GitHub/DownloadFullInstaller-2/FetchInstallerPkg/View/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 61
+        }
+      }
+    ]
+  },
+  "version": 1
+}
