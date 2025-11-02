@@ -111,3 +111,15 @@
 
 /* No comment provided by engineer. */
 "Failed to create AppleScript" = "Failed to create AppleScript";
+
+/* No comment provided by engineer. */
+"Sort Order" = "Sort Order";
+
+/* No comment provided by engineer. */
+"Date (Newest First)" = "Date (Newest First)";
+
+/* No comment provided by engineer. */
+"Date (Oldest First)" = "Date (Oldest First)";
+
+/* No comment provided by engineer. */
+"Version Order" = "Version Order";
