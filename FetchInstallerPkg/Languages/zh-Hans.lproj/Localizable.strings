@@ -111,15 +111,3 @@
 
 /* No comment provided by engineer. */
 "Failed to create AppleScript" = "无法创建 AppleScript";
-
-/* No comment provided by engineer. */
-"Sort Order" = "排序方式";
-
-/* No comment provided by engineer. */
-"Date (Newest First)" = "日期（最新优先）";
-
-/* No comment provided by engineer. */
-"Date (Oldest First)" = "日期（最旧优先）";
-
-/* No comment provided by engineer. */
-"Version Order" = "版本顺序";

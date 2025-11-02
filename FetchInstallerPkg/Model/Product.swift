@@ -6,7 +6,7 @@
 
 import Foundation
 
-class Product: Codable, Identifiable, ObservableObject, Hashable {
+class Product: Codable, Identifiable, ObservableObject {
     var thisComponent: String { return String(describing: self) }
 
     let serverMetadataURL: String?
@@ -195,14 +195,5 @@ class Product: Codable, Identifiable, ObservableObject, Hashable {
         case postDate = "PostDate"
         case distributions = "Distributions"
         case extendedMetaInfo = "ExtendedMetaInfo"
-    }
-
-    // MARK: - Hashable & Equatable
-    static func == (lhs: Product, rhs: Product) -> Bool {
-        return lhs.id == rhs.id
-    }
-
-    func hash(into hasher: inout Hasher) {
-        hasher.combine(id)
     }
 }

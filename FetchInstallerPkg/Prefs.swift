@@ -6,21 +6,12 @@
 
 import Foundation
 
-enum SortOrder: String, CaseIterable, Identifiable {
-    case dateDescending = "dateDescending"
-    case dateAscending = "dateAscending"
-    case versionOrder = "versionOrder"
-    
-    var id: String { rawValue }
-}
-
 struct Prefs {
     enum Key: String {
         case seedProgram = "SeedProgram"
         case osNameID = "OsNameID"
         case downloadPath = "DownloadPath"
         case languageSelectionShown = "LanguageSelectionShown"
-        case sortOrder = "SortOrder"
     }
 
     static func key(_ key: Key) -> String {
@@ -33,7 +24,6 @@ struct Prefs {
         prefs[Prefs.key(.seedProgram)] = SeedProgram.noSeed.rawValue
         prefs[Prefs.key(.osNameID)] = OsNameID.osAll.rawValue
         prefs[Prefs.key(.languageSelectionShown)] = false
-        prefs[Prefs.key(.sortOrder)] = SortOrder.dateDescending.rawValue
 
         guard let downloadURL = FileManager.default.urls(for: .downloadsDirectory, in: .userDomainMask).first else { return }
         prefs[Prefs.key(.downloadPath)] = downloadURL.path
@@ -77,11 +67,6 @@ struct Prefs {
     
     static var languageSelectionShown: Bool {
         return UserDefaults.standard.bool(forKey: Prefs.key(.languageSelectionShown))
-    }
-
-    static var sortOrder: SortOrder {
-        let sortValue = UserDefaults.standard.string(forKey: Prefs.key(.sortOrder)) ?? ""
-        return SortOrder(rawValue: sortValue) ?? .dateDescending
     }
 
     // Save user preferences (LanguageSelectionShown)
