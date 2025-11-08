@@ -12,7 +12,7 @@ As of June 2025, [DownloadFullInstaller](https://github.com/scriptingosx/Downloa
 
 Download Full Installer runs on macOS 13 Ventura through macOS 26 Tahoe.
 
-**Note**: For Download Full Installer running and compiling on macOS 11+, you can get the [version 2.0](https://github.com/perez987/DownloadFullInstaller/releases/tag/2.0-123) or the Xcode project from the [`old`](https://github.com/perez987/DownloadFullInstaller/tree/old) branch and build the app from source.
+**Note**: For Download Full Installer running on macOS 11+, you can get the [version 2.0](https://github.com/perez987/DownloadFullInstaller/releases/tag/2.0-139) or the Xcode project from the [`old`](https://github.com/perez987/DownloadFullInstaller/tree/old) branch and build the app from source.
 
 ### Features
 
@@ -38,7 +38,7 @@ After downloading an InstallAssistant.pkg file, you can create the macOS install
 
 ### App is damaged and can't be opened
 
-If you see `App is damaged and can't be opened` when you open DownloadFullInstaller for the first time, read [this](App-damaged.md).
+If you see `App is damaged and can't be opened` when you open DownloadFullInstaller for the first time, read [this](DOCS/APP-DAMAGED.md).
 
 ### Download appears to be complete, but the installer is not in the Downloads folder
 
